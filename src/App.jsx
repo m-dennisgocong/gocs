@@ -1,12 +1,14 @@
-
+import Navigation from './components/Navigation'
 import './App.scss'
+import './styles/Navigation.scss'
 
 function App() {
  
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <Navigation />
+      
+    </>
   )
 }
 
