@@ -1,4 +1,4 @@
-
+import close from './../assets/close.svg'
 import menu from './../assets/menu.svg'
 const Navigation = () => {
 
@@ -13,7 +13,7 @@ const Navigation = () => {
                     <li><a href="#">Art</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                
+                <img src={close} className="close" alt="close menu" />
             </nav>
         
             <img src={menu} className="menu" alt="menu svg" />
