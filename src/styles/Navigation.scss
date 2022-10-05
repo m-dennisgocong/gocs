@@ -28,6 +28,7 @@ header{
         width: 50%;
         background-color: #fff;
         transition: transform 0.25s ease;
+
         img.close{
             float: right;
             height: 24px;
@@ -50,4 +51,35 @@ header{
         cursor: pointer;
     }
     
+}
+
+@media (min-width: 600px) {
+    header{
+        margin: 0.4rem 4rem;
+        nav{
+            display: unset;
+            transform: translateX(0);
+            height: auto;
+            width: auto;
+            padding: inherit;
+            margin: inherit;
+
+            img.close{
+                float: none;
+                display: none;
+            }
+
+            ul{
+                display: flex;
+                gap: 2rem;
+                padding: 0;
+                margin: 0;
+                line-height: unset;
+                
+            }
+        }
+        img.menu{
+            display: none;
+        }
+    }
 }
