@@ -8,61 +8,85 @@ header{
     left: 0;
     right: 0;
     height: auto;
-    margin: 0.2rem .5rem;
-    
-    a{
+    padding: 0.5em 1em;
 
+    a{
         text-decoration: none;
         color: unset;
-        span{
-            color: red;
-        }
+    }
+
+    #logo{
+        font-size: 1.5em;
+    }
+
+    .nickname{
+        text-transform: uppercase;
+        font-weight: 900;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000, 0 -1px 1px #000, 1px 1px 1px #000,
+        -1px 0 0 #000, 1px 1px 0 #000, 1px 0 0 #000, 0 -1px 0 #000;
     }
     nav{   
 
         position: fixed;
         right: 0;
         top: 0;
+        
         transform: translateX(100%);
         height: 100vh;
         width: 50%;
+
         background-color: #fff;
         transition: transform 0.25s ease;
 
+
+
         img.close{
             float: right;
-            height: 24px;
-            width: 20px;
-            margin-top: .2rem;
-            margin-right: .6rem;
+            height: 22.5px;
+            max-width: 100%;
+            padding-top: .8rem;
+            padding-right: 1.2rem;
+            // margin-top: .2rem;
+            // margin-right: .6rem;
             cursor: pointer;
         }
         
         ul{
             list-style-type: none;
             display: block;
-            line-height: 2rem;
-            padding: 2rem 1rem;
+            line-height: 3rem;
+            margin-top: 25%;
+            padding: 2rem 3rem;
+            text-align: center;
+            li{
+                font-size: 1.5rem;
+            }
 
         }
 
     }
     img.menu{
         cursor: pointer;
+        height: 28px;
+        max-width: 100%;
     }
     
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
+
     header{
-        margin: 0.4rem 4rem;
+        #logo{
+            font-size: 1em;
+        }
+        padding: 1.5em 4em;
         nav{
-            display: unset;
+            position: unset;
             transform: translateX(0);
-            height: auto;
-            width: auto;
-            padding: inherit;
-            margin: inherit;
+            height: unset;
+            width: unset;
+            background-color: unset;
 
             img.close{
                 float: none;
@@ -75,7 +99,9 @@ header{
                 padding: 0;
                 margin: 0;
                 line-height: unset;
-                
+                li{
+                    font-size: 1rem;
+                }
             }
         }
         img.menu{
