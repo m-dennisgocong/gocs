@@ -13,7 +13,7 @@ const Navigation = () => {
     return(
         <header id="Navigation">
         
-            <a href="#"><div className='nickname'>Goc<span>s</span></div></a>
+            <a href="#" id="logo"><div className='nickname'>Goc<span>s</span></div></a>
 
             <nav style={navMenu ? {transform: "translateX(0)"} : null }>
                 <img src={close} className="close" alt="close menu" onClick={handleNavMenu}/>
