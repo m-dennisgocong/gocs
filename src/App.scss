@@ -1,5 +1,11 @@
 #root {
-  max-width: 740px;
-  margin: 0 auto;
-  padding: 1rem 2rem;
+  max-height: 100vh;
+  min-width: 340px;
+  margin: 2.5em 1em;
+}
+@media (min-width: 768px) {
+  #root{
+    margin: 0.4em 4em;
+  }
+  
 }
