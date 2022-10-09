@@ -1,4 +1,4 @@
-.Hero{
+#Hero{
     height: 100%;
     width: 100%;
     h1{
@@ -29,7 +29,7 @@
 }
 
 @media (min-width: 500px){
-    .Hero{
+    #Hero{
         h1{
             padding-top: 1.5em;
             font-size: 2.4rem;
@@ -49,7 +49,7 @@
 }
 
 @media (min-width: 780px){
-    .Hero{
+    #Hero{
         h1{
             padding-top: 1em;
             font-size: 3.5rem;
@@ -68,7 +68,7 @@
     }
 }
 @media (min-width: 992px) {
-    .Hero{
+    #Hero{
         p{
             span#rule{
                 font-size: 3rem;
@@ -80,7 +80,7 @@
 }
 
 @media (min-width: 1279px) {
-    .Hero{
+    #Hero{
         p{
             span#rule{
                 font-size: 3rem;
