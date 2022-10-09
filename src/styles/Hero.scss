@@ -4,17 +4,18 @@
     h1{
         padding-top: 2.7em;
         font-size: 1.9rem;
-        margin-bottom: .7em;
+        margin-bottom: 1em;
+        color: #1a1b1f;
         span#underline{
-            border-bottom: 4px solid #000;
+            border-bottom: 4px solid #1a1b1f;
         }  
     }
     p{
         margin-top: 0;
         margin-left: 35%;
-        margin-bottom: 33%;
+        margin-bottom: 31%;
         span#rule{
-            font-size: 1.5em;
+            font-size: 1.8em;
             font-weight: 800;
             color: #fff;
             text-shadow: 1px 1px 1px #000, 0 -1px 1px #000, 1px 1px 1px #000,
@@ -55,8 +56,9 @@
         }
         p{
             span#rule{
-                font-size: 2em;
+                font-size: 2.5rem;
             }
+            
             margin-bottom: 15%;
         }
         img#arrowDown{
@@ -64,4 +66,28 @@
             width: 95px;
         }
     }
+}
+@media (min-width: 992px) {
+    .Hero{
+        p{
+            span#rule{
+                font-size: 3rem;
+            }
+            margin-bottom: 10%;
+        }
+    }
+    
+}
+
+@media (min-width: 1279px) {
+    .Hero{
+        p{
+            span#rule{
+                font-size: 3rem;
+            }
+            
+            margin-bottom: 15%;
+        }
+    }
+    
 }
