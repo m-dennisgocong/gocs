@@ -5,7 +5,21 @@
 }
 @media (min-width: 768px) {
   #root{
-    margin: 0.4em 4em;
+    margin: 0.4em 5em;
+  }
+  
+}
+@media (min-width: 992px) {
+  #root{
+    padding: 0.5em 0;
+    margin: 0.4em 12em;
+  }
+  
+}
+
+@media (min-width: 1279px) {
+  #root{
+    margin: 0.4em 17em;
   }
   
 }
