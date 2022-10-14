@@ -1,8 +1,8 @@
 #Hero{
-    height: 100%;
+    height: 100vh;
     width: 100%;
     h1{
-        padding-top: 2.7em;
+        padding-top: 4em;
         font-size: 1.9rem;
         margin-bottom: 1em;
         color: #1a1b1f;
@@ -31,7 +31,7 @@
 @media (min-width: 500px){
     #Hero{
         h1{
-            padding-top: 1.5em;
+            padding-top: 3em;
             font-size: 2.4rem;
             margin-bottom: .5em;
         }
@@ -73,7 +73,22 @@
             span#rule{
                 font-size: 3rem;
             }
+        
+            margin-left: 30%;
             margin-bottom: 10%;
+        }
+    }
+    
+}
+
+@media (min-width: 1119px) {
+    #Hero{
+        p{
+            span#rule{
+                font-size: 3rem;
+            }
+        
+            margin-left: 40%;
         }
     }
     
@@ -85,7 +100,7 @@
             span#rule{
                 font-size: 3rem;
             }
-            
+            margin-left: 40%;
             margin-bottom: 15%;
         }
     }
