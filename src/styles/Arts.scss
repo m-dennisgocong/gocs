@@ -30,3 +30,18 @@
     }
     
 }
+@media (min-width: 500px){
+    #Arts{
+        .scrollong-wrapper{
+            grid-auto-columns: 40%;
+        }
+    }
+}
+
+@media (min-width: 780px){
+    #Arts{
+        .scrollong-wrapper{
+            grid-auto-columns: 30%;
+        }
+    }
+}
