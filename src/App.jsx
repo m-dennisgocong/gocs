@@ -6,6 +6,7 @@ import Arts from './components/Arts';
 import './styles/Navigation.scss';
 import './styles/Hero.scss';
 import './styles/Projects.scss';
+import './styles/Arts.scss';
 import './App.scss';
 
 
