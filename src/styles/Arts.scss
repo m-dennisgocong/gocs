@@ -1,0 +1,32 @@
+
+#Arts{
+    inline-size: min(100%, 80rem);
+    margin-inline: auto;
+    display: grid;
+    // gap: 2em;
+    .scrollong-wrapper{
+        $_spacer: 1rem;
+        display: grid;
+        gap: $_spacer + 1.5;
+        grid-auto-flow: column;
+        grid-auto-columns: 60%;
+        padding: 0 $_spacer $_spacer;
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        
+        .card{
+            display: grid;
+            grid-template-rows: max-content;
+                        
+            img{
+                border-radius: .9em;
+                inline-size: 100%;
+                box-shadow: 3px 3px 3px rgb(0,0,0, .3);
+                aspect-ratio: 1 / 1;
+                object-fit: cover   ;
+                object-position: center;
+            }
+        }
+    }
+    
+}
