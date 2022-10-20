@@ -24,6 +24,7 @@ header{
         text-transform: uppercase;
         font-weight: 700;
         color: #333333;
+        font-family: 'Space Grotesk', sans-serif;
         // color: white;
         // text-shadow: 1px 1px 1px #000, 0 -1px 1px #000, 1px 1px 1px #000,
         // -1px 0 0 #000, 1px 1px 0 #000, 1px 0 0 #000, 0 -1px 0 #000;
@@ -63,6 +64,7 @@ header{
             li{
                 font-size: 1.5rem;
                 color: #0c0c0c;
+                
             }
 
         }
@@ -116,7 +118,7 @@ header{
 
 @media (min-width: 992px) {
     header{
-      padding: 0.5em 0;
+      padding: 2em 0 1em;
       margin: 0 $margin-container * 2;
     }
     
@@ -124,7 +126,6 @@ header{
 
 @media (min-width: 1279px) {
     header{
-      padding: 0.5em 0;
       margin: 0 $margin-container * 3.3;
     }
     
