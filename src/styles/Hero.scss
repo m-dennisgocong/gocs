@@ -1,9 +1,11 @@
+
 #Hero{
     height: 100vh;
     width: 100%;
     h1{
         padding-top: 4em;
         font-size: 1.9rem;
+        font-family: 'Space Grotesk', sans-serif;
         margin-bottom: 1em;
         color: #1a1b1f;
         span#underline{
@@ -48,18 +50,19 @@
     }
 }
 
-@media (min-width: 780px){
+@media (min-width: 768px){
     #Hero{
         h1{
             padding-top: 1em;
             font-size: 3.5rem;
         }
         p{
+            line-height: 2rem;
             span#rule{
-                font-size: 2.5rem;
+                font-size: 3.5rem;
             }
-            
-            margin-bottom: 15%;
+            margin-left: 25%;
+            margin-bottom: 10%;
         }
         img#arrowDown{
             height: 95px;
@@ -67,41 +70,14 @@
         }
     }
 }
-@media (min-width: 992px) {
+
+@media (min-width: 1280px) {
     #Hero{
+        margin-top: 3em;
         p{
-            span#rule{
-                font-size: 3rem;
-            }
-        
+
             margin-left: 30%;
             margin-bottom: 10%;
-        }
-    }
-    
-}
-
-@media (min-width: 1119px) {
-    #Hero{
-        p{
-            span#rule{
-                font-size: 3rem;
-            }
-        
-            margin-left: 40%;
-        }
-    }
-    
-}
-
-@media (min-width: 1279px) {
-    #Hero{
-        p{
-            span#rule{
-                font-size: 3rem;
-            }
-            margin-left: 40%;
-            margin-bottom: 15%;
         }
     }
     
