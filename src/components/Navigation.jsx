@@ -18,10 +18,10 @@ const Navigation = () => {
             <nav style={navMenu ? {transform: "translateX(0)"} : null }>
                 <img src={close} className="close" alt="close menu" onClick={handleNavMenu}/>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Project</a></li>
-                    <li><a href="#">Art</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" onClick={handleNavMenu}>Home</a></li>
+                    <li><a href="#Projects" onClick={handleNavMenu}>Project</a></li>
+                    <li><a href="#Arts" onClick={handleNavMenu}>Art</a></li>
+                    <li><a href="#Contacts" onClick={handleNavMenu}>Contact</a></li>
                 </ul>
             </nav>
         
