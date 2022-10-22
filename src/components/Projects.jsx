@@ -22,8 +22,8 @@ const Projects = () => {
                             </ul>
                         </div>
                         <div className="links">
-                            <a href="" className="demo-link">Demo <FaExternalLinkAlt className="link-icons"/></a>
-                            <a href="" className="source-link">Source <FaExternalLinkAlt className="link-icons"/></a>
+                            <a href="https://online-virtual-drum.netlify.app/" className="demo-link" target="_blank">Demo <FaExternalLinkAlt className="link-icons"/></a>
+                            <a href="https://github.com/m-dennisgocong/virtual-drum" className="source-link" target="_blank">Source <FaExternalLinkAlt className="link-icons"/></a>
                         </div>
                         
                     </div>
@@ -41,8 +41,8 @@ const Projects = () => {
                             </ul>
                         </div>
                         <div className="links">
-                            <a href="" className="demo-link">Demo <FaExternalLinkAlt className="link-icons"/></a>
-                            <a href="" className="source-link">Source <FaExternalLinkAlt className="link-icons"/></a>
+                            <a href="https://m-dennisgocong.github.io/md-editor/" className="demo-link" target="_blank">Demo <FaExternalLinkAlt className="link-icons"/></a>
+                            <a href="https://github.com/m-dennisgocong/md-editor" className="source-link" target="_blank">Source <FaExternalLinkAlt className="link-icons"/></a>
                         </div>
                     </div>
 
@@ -57,8 +57,8 @@ const Projects = () => {
                             </ul>
                         </div>
                         <div className="links">
-                            <a href="" className="demo-link">Demo <FaExternalLinkAlt className="link-icons"/></a>
-                            <a href="" className="source-link">Source <FaExternalLinkAlt className="link-icons"/></a>
+                            <a href="https://make-border-radius.netlify.app/" className="demo-link" target="_blank">Demo <FaExternalLinkAlt className="link-icons"/></a>
+                            <a href="https://github.com/m-dennisgocong/make-border-radius" className="source-link" target="_blank">Source <FaExternalLinkAlt className="link-icons"/></a>
                         </div>
                         
                     </div>
@@ -77,8 +77,8 @@ const Projects = () => {
                             </ul>
                         </div>
                         <div className="links">
-                            <a href="" className="demo-link">Demo <FaExternalLinkAlt className="link-icons"/></a>
-                            <a href="" className="source-link">Source <FaExternalLinkAlt className="link-icons"/></a>
+                            <a href="https://m-dennisgocong.github.io/random-quote-machine/" className="demo-link" target="_blank">Demo <FaExternalLinkAlt className="link-icons"/></a>
+                            <a href="https://github.com/m-dennisgocong/random-quote-machine" className="source-link" target="_blank">Source <FaExternalLinkAlt className="link-icons"/></a>
                         </div>
                 
                     </div>
@@ -107,8 +107,8 @@ const Projects = () => {
                             </ul>
                         </div>
                         <div className="links">
-                            <a href="" className="demo-link">Demo <FaExternalLinkAlt className="link-icons"/></a>
-                            <a href="" className="source-link">Source <FaExternalLinkAlt className="link-icons"/></a>
+                            <a href="https://codepen.io/dennisgocong/full/VwyogOx" className="demo-link" target="_blank">Demo <FaExternalLinkAlt className="link-icons"/></a>
+                            <a href="https://codepen.io/dennisgocong/pen/VwyogOx" className="source-link" target="_blank">Source <FaExternalLinkAlt className="link-icons"/></a>
                         </div>
                     </div>
 
@@ -124,8 +124,8 @@ const Projects = () => {
                             </ul>
                         </div>
                         <div className="links">
-                            <a href="" className="demo-link">Demo <FaExternalLinkAlt className="link-icons"/></a>
-                            <a href="" className="source-link">Source <FaExternalLinkAlt className="link-icons"/></a>
+                            <a href="https://codepen.io/dennisgocong/full/xxYENXR" className="demo-link" target="_blank">Demo <FaExternalLinkAlt className="link-icons"/></a>
+                            <a href="https://codepen.io/dennisgocong/pen/xxYENXR" className="source-link" target="_blank">Source <FaExternalLinkAlt className="link-icons"/></a>
                         </div>
                         
                     </div>
@@ -142,8 +142,8 @@ const Projects = () => {
                             </ul>
                         </div>
                         <div className="links">
-                            <a href="" className="demo-link">Demo <FaExternalLinkAlt className="link-icons"/></a>
-                            <a href="" className="source-link">Source <FaExternalLinkAlt className="link-icons"/></a>
+                            <a href="https://codepen.io/dennisgocong/full/BaJEKja" className="demo-link" target="_blank">Demo <FaExternalLinkAlt className="link-icons"/></a>
+                            <a href="https://codepen.io/dennisgocong/pen/BaJEKja" className="source-link" target="_blank">Source <FaExternalLinkAlt className="link-icons"/></a>
                         </div>
                 
                     </div>
@@ -158,8 +158,8 @@ const Projects = () => {
                             </ul>
                         </div>
                         <div className="links">
-                            <a href="" className="demo-link">Demo <FaExternalLinkAlt className="link-icons"/></a>
-                            <a href="" className="source-link">Source <FaExternalLinkAlt className="link-icons"/></a>
+                            <a href="https://codepen.io/dennisgocong/full/xxXNKvK" className="demo-link" target="_blank">Demo <FaExternalLinkAlt className="link-icons"/></a>
+                            <a href="https://codepen.io/dennisgocong/pen/xxXNKvK" className="source-link" target="_blank">Source <FaExternalLinkAlt className="link-icons"/></a>
                         </div>
                     
                     </div>
@@ -176,8 +176,8 @@ const Projects = () => {
                             </ul>
                         </div>
                         <div className="links">
-                            <a href="" className="demo-link">Demo <FaExternalLinkAlt className="link-icons"/></a>
-                            <a href="" className="source-link">Source <FaExternalLinkAlt className="link-icons"/></a>
+                            <a href="https://codepen.io/dennisgocong/full/NWaLmbB" className="demo-link" target="_blank">Demo <FaExternalLinkAlt className="link-icons"/></a>
+                            <a href="https://codepen.io/dennisgocong/pen/NWaLmbB" className="source-link" target="_blank">Source <FaExternalLinkAlt className="link-icons"/></a>
                         </div>
                     
                     </div>
