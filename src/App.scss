@@ -1,27 +1,27 @@
 @import './_variables.scss';
 
 #root {
-  // max-height: 100vh;
+  display: grid;
+  // gap: 2em;
   min-width: 340px;
   margin: 0 1em;
 }
 @media (min-width: 768px) {
   #root{
-    margin: 0.4em $margin-container;
+    margin: 0 $margin-container;
   }
   
 }
 @media (min-width: 992px) {
   #root{
-    padding: 0.5em 0;
-    margin: 0.4em $margin-container * 2;
+    margin: 0 $margin-container * 2;
   }
   
 }
 
 @media (min-width: 1279px) {
   #root{
-    margin: 0.4em $margin-container * 3.3;
+    margin: 0 $margin-container * 3.3; 
   }
   
 }
