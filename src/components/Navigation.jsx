@@ -10,6 +10,7 @@ const Navigation = () => {
 
     const [navMenu, setNavMenu] = useState(false);
 
+
     return(
         <header id="Navigation">
         
@@ -18,10 +19,10 @@ const Navigation = () => {
             <nav style={navMenu ? {transform: "translateX(0)"} : null }>
                 <img src={close} className="close" alt="close menu" onClick={handleNavMenu}/>
                 <ul>
-                    <li><a href="#" onClick={handleNavMenu}>Home</a></li>
-                    <li><a href="#Projects" onClick={handleNavMenu}>Project</a></li>
-                    <li><a href="#Arts" onClick={handleNavMenu}>Art</a></li>
-                    <li><a href="#Contacts" onClick={handleNavMenu}>Contact</a></li>
+                    <li><a href="#" className="home" onClick={handleNavMenu}>Home</a></li>
+                    <li><a href="#Projects" className="projects" onClick={handleNavMenu}>Project</a></li>
+                    <li><a href="#Arts" className="arts" onClick={handleNavMenu}>Art</a></li>
+                    <li><a href="#Contacts" className="contact" onClick={handleNavMenu}>Contact</a></li>
                 </ul>
             </nav>
         
