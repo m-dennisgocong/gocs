@@ -4,14 +4,17 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 4em 0 6em;
+    padding: 6em 0 2em;
+    line-height: 1.5;
     h2{
         color: rgb(20, 20, 20);
-        font-weight: 500;
+        // font-weight: 500;
+        margin-bottom: 0;
     }
     p{
         color: rgb(32, 32, 32);
-        line-height: 1.5em;
+
+        margin-bottom: 1.5em;
         span{
             color: rgba(173, 18, 44, 0.897);
         }
@@ -19,7 +22,20 @@
     #socials-wrapper{
         display: flex;
         justify-content: center;
+        align-items: center;
         gap: 1em;
-        font-size: 2em;
+        font-size: 1.5em;
+        a{
+            color: #222;
+        }
+        a:hover{
+            color: rgba(173, 18, 44, 0.897)
+        }
+        // increase freecodecamp icon because it look so small 
+        a:nth-child(3){
+            font-size: 1.35em;
+            position: relative;
+            top: .04em
+        }
     }
 }

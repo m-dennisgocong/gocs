@@ -3,30 +3,52 @@
     inline-size: min(100%, 80rem);
     margin-inline: auto;
     display: grid;
-    h3{
+    padding-top: 2.8em;
+    h2{
         margin-bottom: 0;
     }
-
+    
     p{
         line-height: 1.5rem;
+        a:link {
+            color: green;
+        }
+          
+          /* visited link */
+        a:visited {
+            color: green;
+        }
+          
+          /* mouse over link */
+        a:hover {
+            color: rgba(173, 18, 44, 0.897);
+        }
+          
+          /* selected link */
+        a:active {
+            color: yellow;
+        } 
     }
     .scrollong-wrapper{
         $_spacer: 1rem;
         display: grid;
-        gap: $_spacer + 1.5;
+        gap: $_spacer + .5;
         grid-auto-flow: column;
         grid-auto-columns: 60%;
-        padding: 0 $_spacer $_spacer + 1;
+        padding: 1.5em $_spacer $_spacer + 1;
         overflow-x: auto;
         overscroll-behavior-inline: contain;
+        background-color: rgb(250, 250, 250);
+        border-radius: .3em;
+        border: 1px solid #999;
         .card{
             display: grid;
             grid-template-rows: max-content;           
-            
+            // padding: 0 1em;
             img{
-                border-radius: .7em;
+                border-radius: 1em;
                 inline-size: 100%;
-                box-shadow: 3px 3px 5px rgb(0,0,0, .4);
+                box-shadow: 3px 3px 6px rgb(0,0,0, .4);
                 aspect-ratio: 1 / 1;
                 object-fit: cover   ;
                 object-position: center;
@@ -41,11 +63,27 @@
         scroll-snap-align: start;
     }
 }
-@media (min-width: 460px){
+@media (min-width: 480px){
+    #Arts{
+        .scrollong-wrapper{
+            grid-auto-columns: 40%;
+        }
+
+        // .snaps-inline{
+        //     scroll-padding-inline: 2rem;
+        // }
+    }
+}
+
+@media (min-width: 760px){
     #Arts{
         .scrollong-wrapper{
             grid-auto-columns: 35%;
         }
+
+        // .snaps-inline{
+        //     scroll-padding-inline: 2rem;
+        // }
     }
 }
 
@@ -53,7 +91,7 @@
     #Arts{
         grid-auto-columns: 100%;
         .scrollong-wrapper{
-            grid-auto-columns: 25%;
+            grid-auto-columns: 34%;
         }
     }
 }
