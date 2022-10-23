@@ -93,8 +93,8 @@ const Projects = () => {
 
             <div id="FreeCodeCamp-projects">
                 <h2>FreeCodeCamp(Projects)</h2> 
-                <p>This is my projects for <a href="https://www.freecodecamp.org/learn/responsive-web-design/#responsive-web-design-projects">Responsive Web Design</a> course on freeCodeCamp.
-                I was able to earn a <a href="https://www.freecodecamp.org/certification/gocs/responsive-web-design">Certification</a> for completing the following: </p> 
+                <p>This is my projects for <a href="https://www.freecodecamp.org/learn/responsive-web-design/#responsive-web-design-projects" target="_blank">Responsive Web Design</a> course on freeCodeCamp.
+                I was able to earn a <a href="https://www.freecodecamp.org/certification/gocs/responsive-web-design" target="_blank">Certification</a> for completing the following: </p> 
                 <div className="project-container">
                     <div className="project-tile anchored large">
                         <div className="project-detail">
