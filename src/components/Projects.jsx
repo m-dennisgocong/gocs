@@ -172,7 +172,6 @@ const Projects = () => {
                             <ul className="tech-stack">
                                 <li>HTML</li>
                                 <li>CSS</li>
-                                <li>JavaScript</li>
                             </ul>
                         </div>
                         <div className="links">
