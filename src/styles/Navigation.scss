@@ -18,12 +18,12 @@ header{
     }
 
     #logo{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .nickname{
         text-transform: lowercase;
-        font-weight: 600;
+        font-weight: 700;
         color: #000;
         span{
             color: rgba(173, 18, 44, 0.897);
@@ -48,13 +48,13 @@ header{
 
         img.close{
             // float: right;
-            height: 24px;
+            height: 30px;
             // max-width: 100%;
             position: absolute;
             top: 0;
             right: 0;
-            padding-top: .7em;
-            padding-right: 1.2em;
+            padding-top: .9em;
+            padding-right: 1.1em;
             cursor: pointer;
 
         }
@@ -62,7 +62,7 @@ header{
         ul{
             list-style-type: none;
             // display: block;
-            margin-top: 25%;
+            margin-top: 40%;
             line-height: 4rem;
             padding: 0;
             // padding: 2rem 3rem;
@@ -78,7 +78,7 @@ header{
     }
     img.menu{
         cursor: pointer;
-        height: 30px;
+        height: 35px;
         max-width: 100%;
     }
     
