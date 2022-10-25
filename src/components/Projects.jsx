@@ -17,8 +17,8 @@ const Projects = () => {
                             <p className="description">Online Virtual Drum </p>
                             <ul className="tech-stack">
                                 <li>HTML</li>
-                                <li>CSS</li>
-                                <li>ReactJS</li>
+                                <li>SCSS</li>
+                                <li>React</li>
                             </ul>
                         </div>
                         <div className="links">
@@ -35,9 +35,8 @@ const Projects = () => {
                             <p className="description">markdown editor with a live preview</p>
                             <ul className="tech-stack">
                                 <li>HTML</li>
-                                <li>CSS</li>
-                                <li>ReactJS</li>
-                                <li>API</li>
+                                <li>SCSS</li>
+                                <li>React</li>
                             </ul>
                         </div>
                         <div className="links">
@@ -72,7 +71,7 @@ const Projects = () => {
                             <ul className="tech-stack">
                                 <li>HTML</li>
                                 <li>CSS</li>
-                                <li>ReactJS</li>
+                                <li>React</li>
                                 <li>API</li>
                             </ul>
                         </div>
