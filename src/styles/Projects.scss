@@ -28,7 +28,7 @@
     
                     li{
                         list-style-position:inside;
-                        list-style-type: " | ";
+                        list-style-type: "  |  ";
                         letter-spacing: .09rem;
                         font-size: 0.9rem;
                         color: #222;
@@ -47,21 +47,20 @@
                     display: flex;
                     align-items: center;
                     justify-content: flex-end;
-                    gap: .4em;
+                    gap: .5em;
                     padding: .5em .7em;
-                    color: rgb(0, 0, 0);
-                    background-color: rgb(255, 255, 255);
-                    border: 1px solid rgba(155, 123, 128, 0.897);
-                    border-radius: .4em;
+                    color: rgb(255, 255, 255);
+                    background-color: rgb(65, 65, 65);
+                    border-radius: .25em;
                     text-decoration: none;
                     font-size: .9rem;
                     .link-icons{
-                        font-size: .7em;
+                        font-size: .9em;
                     }
                 }
                 a:hover{
-                    background-color: rgba(233, 52, 82, 0.849);
-                    color: white;
+                    background-color: rgba(255, 55, 88, 0.849);
+                    color: #111;
                 }
             }
     
