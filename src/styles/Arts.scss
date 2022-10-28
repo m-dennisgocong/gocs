@@ -80,7 +80,7 @@
 @media (min-width: 760px){
     #Arts{
         .scrollong-wrapper{
-            grid-auto-columns: 35%;
+            grid-auto-columns: 27%;
         }
 
         // .snaps-inline{
@@ -93,7 +93,10 @@
     #Arts{
         grid-auto-columns: 100%;
         .scrollong-wrapper{
-            grid-auto-columns: 34%;
+            grid-auto-columns: 28%;
         }
+        // .snaps-inline{
+        //     scroll-padding-inline: -2rem;
+        // }
     }
 }
