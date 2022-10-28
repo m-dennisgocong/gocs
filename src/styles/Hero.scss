@@ -1,4 +1,4 @@
-
+@import '../_variables.scss';
 #Hero{
     height: 100vh;
     width: 100%;
@@ -14,20 +14,21 @@
         color: #1a1b1f;
         // text-align: center;
         span#underline{
-            border-bottom: 4px solid #1a1b1f;
+            border-bottom: 4px solid $hero-text-color;
         }  
     }
     p{
         text-align: center;
         margin-top: 0;
         // margin-left: 35%;
+        color: $hero-text-color;
         margin-bottom: 50%;
         span#rule{
             font-size: 2rem;
             font-weight: 800;
-            color: #fff;
-            text-shadow: 1px 1px 1px #000, 0 -1px 1px #000, 1px 1px 1px #000,
-            -1px 0 0 #000, 1px 1px 0 #000, 1px 0 0 #000, 0 -1px 0 #000;
+            color: $rule-text-inner-color;
+            text-shadow: 1px 1px 1px $rule-text-outer-color, 0 -1px 1px $rule-text-outer-color, 1px 1px 1px $rule-text-outer-color,
+            -1px 0 0 $rule-text-outer-color, 1px 1px 0 $rule-text-outer-color, 1px 0 0 $rule-text-outer-color, 0 -1px 0 $rule-text-outer-color;
         }
     }   
     img#arrowDown{

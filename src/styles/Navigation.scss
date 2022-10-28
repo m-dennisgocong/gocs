@@ -10,7 +10,7 @@ header{
     right: 0;
     height: auto;
     padding: 0.5em 1em;
-    background-color: white;
+    background-color: $header-main-color;
     z-index: 99999;
     a{
         text-decoration: none;
@@ -24,32 +24,28 @@ header{
     .nickname{
         text-transform: lowercase;
         font-weight: 700;
-        color: #000;
+        color: $header-text-color;
         span{
-            color: rgba(173, 18, 44, 0.897);
+            color: $logo-last-letter-color;
         }
     }
     nav{   
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        // padding-top: 25%;
         position: fixed;
-        // top: 0;
         right: 0;
         top: 0;
         
         transform: translateX(100%);
         height: 100vh;
         width: 100%;
-        background-color: rgb(255, 255, 255);
+        background-color: $navbar-main-color;
         transition: transform 0.25s ease;
 
         img.close{
-            // float: right;
-            height: 30px;
-            // max-width: 100%;
+            height: 28px;
+            max-width: 100%;
             position: absolute;
             top: 0;
             right: 0;
@@ -61,15 +57,13 @@ header{
   
         ul{
             list-style-type: none;
-            // display: block;
             margin-top: 40%;
             line-height: 4rem;
             padding: 0;
-            // padding: 2rem 3rem;
             text-align: center;
             li{
                 font-size: 2rem;
-                color: #0c0c0c;
+                color: $header-text-color;
                 
             }
 
@@ -115,7 +109,6 @@ header{
                     font-size: 1rem;
                 }
                 li:hover{
-                    // text-underline-position: under;
                     text-decoration:underline;
                 }
             }
