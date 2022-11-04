@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation: introLoad 1s ease-in-out forwards;
+    // animation: introLoad 1s ease-in-out forwards;
     h1{
         padding-top: 4em;
         font-size: 2rem;
@@ -13,6 +13,7 @@
         margin-bottom: .3em;
         color: #1a1b1f;
         // text-align: center;
+        animation: introLoad-name 1s ease-in-out forwards;
         span#underline{
             border-bottom: 4px solid $hero-text-color;
         }  
@@ -23,6 +24,7 @@
         // margin-left: 35%;
         color: $hero-text-color;
         margin-bottom: 50%;
+        animation: introLoad-rule 1.5s ease-in-out forwards;
         span#rule{
             font-size: 2rem;
             font-weight: 800;
@@ -35,7 +37,7 @@
     img#arrowDown{
         height: 70px;
         width: 70px;
-        animation: arrowAnimation 1s alternate-reverse 1s infinite;
+        animation: arrowAnimation 1s alternate-reverse 2s infinite, introload-opacity 2s ease-in-out forwards;
     }
 }
 
@@ -112,19 +114,41 @@
 @keyframes arrowAnimation {
     from{
       transform: translateY(-45px);
+    //   opacity : 0;
     }
     to{
       transform: translateY(0);
+    //   opacity: 1;
     }
 }
 
-@keyframes introLoad {
+@keyframes introLoad-name {
     from {
-        transform: translateY(-100px);
+        transform: translateX(-100px);
         opacity : 0;
     }
     to {
-        transform: translateY(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes introLoad-rule {
+    from {
+        transform: translateX(100px);
+        opacity : 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes introload-opacity {
+    from {
+        opacity : 0;
+    }
+    to {
         opacity: 1;
     }
 }
