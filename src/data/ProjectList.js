@@ -29,7 +29,7 @@ export const recentProject = [
     {
         title: "random-quote-machine",
         description: "Random Quote Generator, share to twitter",
-        techstack : ["HTML","CSS","React"],
+        techstack : ["HTML","CSS","React", "API"],
         links : {
             demo: "https://m-dennisgocong.github.io/random-quote-machine/",
             source: "https://github.com/m-dennisgocong/random-quote-machine"
@@ -68,7 +68,7 @@ export const moreProject = [
     {
         title: "Survey Form",
         description: "A fitness suite survey form",
-        techstack : [ "HTML","SCSS"],
+        techstack : [ "HTML","CSS"],
         links : {
             demo : "https://codepen.io/dennisgocong/full/xxXNKvK",
             source : "https://codepen.io/dennisgocong/pen/xxXNKvK"
@@ -77,7 +77,7 @@ export const moreProject = [
     {
         title: "Tribute Page",
         description: "A tribute page for Dr. Norman Borlaug",
-        techstack : [ "HTML","SCSS"],
+        techstack : [ "HTML","CSS"],
         links : {
             demo : "https://codepen.io/dennisgocong/full/NWaLmbB",
             source : "https://codepen.io/dennisgocong/pen/NWaLmbB"
