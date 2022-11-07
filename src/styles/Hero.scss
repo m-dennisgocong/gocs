@@ -7,6 +7,7 @@
     align-items: center;
     // animation: introLoad 1s ease-in-out forwards;
     h1{
+        position: relative;
         padding-top: 4em;
         font-size: 2rem;
         // font-family: 'Space Grotesk', sans-serif;
@@ -19,6 +20,7 @@
         }  
     }
     p{
+        position: relative;
         text-align: center;
         margin-top: 0;
         // margin-left: 35%;
