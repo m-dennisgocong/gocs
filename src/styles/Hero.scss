@@ -5,14 +5,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    // animation: introLoad 1s ease-in-out forwards;
     h1{
-        padding-top: 4em;
+        padding-top: 5em;
         font-size: 1.5rem;
-        // font-family: 'Space Grotesk', sans-serif;
         margin-bottom: .3em;
         color: #1a1b1f;
-        // text-align: center;
         animation: introLoad-name 1s ease-in-out forwards;
         span#underline{
             border-bottom: 4px solid $hero-text-color;
@@ -21,7 +18,6 @@
     p{
         text-align: center;
         margin-top: 0;
-        // margin-left: 35%;
         color: $hero-text-color;
         margin-bottom: 50%;
         animation: introLoad-rule 1s ease forwards;
