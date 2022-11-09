@@ -54,7 +54,11 @@ export const myArts = [
     {
         link: "https://codepen.io/dennisgocong/pen/oNErbrJ",
         img : "/walter-white-04.png"
-    }
+    },
+    {
+        link: "https://codepen.io/dennisgocong/pen/BaVQxBQ",
+        img : "/minion.png"
+    } 
 ];
 
 
