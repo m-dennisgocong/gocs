@@ -4,12 +4,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
     height: auto;
-    padding: 0.5em 1em;
+    padding: 0.5em 0;
     background-color: $header-main-color;
     z-index: 99999;
     a{
@@ -57,7 +57,7 @@ header{
   
         ul{
             list-style-type: none;
-            margin-top: 40%;
+            margin-top: 150px;
             line-height: 4rem;
             padding: 0;
             text-align: center;
@@ -81,9 +81,10 @@ header{
 @media (min-width: 768px) {
 
     header{
-        padding: 0.5em 0;
+        position: sticky;
+        padding: .8em 0;
+        margin-top: 1em;
         height: auto;
-        margin: 0 $margin-container;
         #logo{
             font-size: 1em;
         }
@@ -117,19 +118,4 @@ header{
             display: none;
         }
     }
-}
-
-@media (min-width: 992px) {
-    header{
-      padding: 1.5em 0 1em;
-      margin: 0 $margin-container * 2;
-    }
-    
-}
-
-@media (min-width: 1279px) {
-    header{
-      margin: 0 $margin-container * 3.3;
-    }
-    
 }
