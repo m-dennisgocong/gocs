@@ -31,6 +31,8 @@
     }
     
     img#arrowDown{
+        position: relative;
+        left: -20px;
         height: 70px;
         width: 70px;
         animation: introload-opacity 2s ease-in-out forwards, arrowAnimation 1s alternate-reverse 2s infinite;
@@ -41,7 +43,7 @@
     #Hero{
         display: unset;
         h1{
-            padding-top: 1.5em;
+            padding-top: 2em;
             font-size: 2.5rem;
             margin-bottom: .5em;
         }
@@ -63,15 +65,15 @@
 @media (min-width: 768px){
     #Hero{
         h1{
-            padding-top: 1em;
-            font-size: 2.5rem;
+            padding-top: 1.2em;
+            font-size: 2.8rem;
         }
         p{
             line-height: 2rem;
             span#rule{
                 font-size: 2.8rem;
             }
-            margin-left: 40%;
+            margin-left: 37%;
             margin-bottom: 20%;
         }
         img#arrowDown{
@@ -87,7 +89,6 @@
             font-size: 3.5rem;
         }
         p{
-            margin-left: 33%;
             margin-bottom: 18%;
             span#rule{
                 font-size: 3.5rem;
