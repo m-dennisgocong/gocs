@@ -31,8 +31,6 @@
     }
     
     img#arrowDown{
-        position: relative;
-        left: -20px;
         height: 70px;
         width: 70px;
         animation: introload-opacity 2s ease-in-out forwards, arrowAnimation 1s alternate-reverse 2s infinite;
@@ -56,6 +54,8 @@
             }
         }
         img#arrowDown{
+            position: relative;
+            left: -20px;
             height: 85px;
             width: 85px;
         }
