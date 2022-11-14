@@ -55,6 +55,7 @@
                     padding: .5em .7em;
                     color: $button-text-color;
                     background-color: $button-color;
+                    border: 2.5px solid $button-border-color;
                     border-radius: .25em;
                     text-decoration: none;
                     font-size: .9rem;
@@ -63,6 +64,7 @@
                     }
                 }
                 a:hover{
+                    border: 2.5px solid $hover-button-border-color;
                     background-color: $hover-button-color;
                     color: $hover-button-text-color;
                 }
