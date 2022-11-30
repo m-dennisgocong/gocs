@@ -11,7 +11,7 @@
         gap: 1em;
         .project-tile{
             border: .5px solid $project-tile-border;
-            padding: 0 1em;
+            padding: 0 1.1em;
             background-color: $project-tile-color;
             border-radius: .3em;
             position: relative;
@@ -46,13 +46,13 @@
             div.links{
                 display: flex;
                 gap: .7em;
-                padding-bottom: 1em;
+                padding-bottom: 1.2em;
                 a{
                     display: flex;
                     align-items: center;
                     justify-content: flex-end;
                     gap: .5em;
-                    padding: .5em .7em;
+                    padding: .5em .5em;
                     color: $button-text-color;
                     background-color: $button-color;
                     border: 2.5px solid $button-border-color;
@@ -139,14 +139,14 @@
                     }
                     ul.tech-stack{
                         position: absolute;
-                        bottom: 4em;
+                        bottom: 4.5em;
                         padding: 0;
                         margin: 0;
                     }
                 }
                 div.links{
                     position: absolute;
-                    bottom: .07em;
+                    bottom: -.05em;
                     
                 }
             }
@@ -155,7 +155,7 @@
             }
             
             .project-tile.large {
-                padding-bottom: 6rem;
+                padding-bottom: 6.5rem;
             }
             
         } 
